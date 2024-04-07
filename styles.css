@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 5rem auto 0 auto;
+    flex-wrap: wrap; 
+    text-align: center;
+}
+
+.h1{
+    background-image: url("db.jpg");
+    color: rgb(255,255,240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+
+.h2{
+    text-align: center;
+    color: rgb(255,255,240);
+    background-color: rgb(2, 0, 65);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    padding: 60px 60px;
+    width: 250px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.MyWorks{
+    background-color: rgb(2, 0, 65);
+    color: rgb(255,255,240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    padding: 60px 60px;
+    width: 250px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.testimonials{
+    background-color: rgb(2, 0, 65);
+    color: rgb(255,255,240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    padding: 60px 60px;
+    width: 250px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(2, 0, 65);
+}
+
+.card {
+    width: 520px;
+    height: 300px; /* Adjust height as needed */
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card:hover {
+    width: 500px; /* Expand width on hover */
+    height: 350px; /* Expand height on hover */
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(2, 0, 65);
+    color: rgb(255,255,240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.custom-link{
+    color: rgb(255,255,240);
+    text-decoration: none;
+}
+
+.custom-link:hover{
+    color: teal;
+}
+
