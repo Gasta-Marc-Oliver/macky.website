@@ -1,51 +1,59 @@
 <!DOCTYPE html>
-<html>
-        <head>
-            <link rel="stylesheet" href="styles.css "/>
-                <title>Gasta Marc Oliver</title>
-        </head>
-        <style>
-            body{
-                background-color: rgb(255,255,240);
-            }
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="gasta_style.css "/>
+            <title>Gasta Marc Oliver</title>
+    </head>
+        <style class="body">
         </style>
     <body>
-            <div class="h1">
-                <h1 class="title">Marc Oliver L. Gasta</h1>
-            </div>
+        <div id="header">
+            <h1>Marc Oliver L. Gasta</h1>
+        </div>
+
         <div class="container">
             <div class="h2">
                 <h2 class="title">My Interest and Hobbies
-                        <p>Sports</p>
-                        <p>Games</p>
-                        <p>Movies</p>
-                        <p>Music</p>
+                    <ul>
+                        <li>Sports</li>
+                        <li>Games</li>
+                        <li>Movies</li>
+                        <li>Music</li>
+                    </ul>
                 </h2> 
             </div>
-            <div class="MyWorks">
+            <div class="my-works">
                 <h2 class="title">My Works
-                        <p>
-                            <a href="Gasta-Marc.html" class="custom-link">Website 1</a>
-                        </p>
-                        <p>
-                            <a href="a.html" class="custom-link">Website 2</a>
-                        </p>
-                        <p>
-                            <a href="b.html" class="custom-link">Website 3</a>
-                        </p>
-                        <p>
-                            <a href="c.html" class="custom-link">Website 4</a>
-                        </p>
-                        <p>
-                            <a href="d.html" class="custom-link">Website 5</a>
-                        </p>
+                    <ol>
+                        <li>
+                            <a href="a.html" class="c-link">Website 1</a>
+                        </li>
+                        <li>
+                            <a href="a.html" class="c-link">Website 2</a>
+                        </li>
+                        <li>
+                            <a href="a.html" class="c-link">Website 3</a>
+                        </li>
+                        <li>
+                            <a href="a.html" class="c-link">Website 4</a>
+                        </li>
+                        <li>
+                            <a href="a.html" class="c-link">Website 5</a>
+                        </li>
                     </ol>
                 </h2>
             </div>
             <div class="testimonials">
                 <h2 class="title">Testimonials</h2>
+                <p>Your website is very unique. - Ilagan</p>
+                <p>Your website is amazing! - Escuro</p>
+                <p>I love it -Trinidad</p>
+                <p>Well done! -Rosario</p>
+                <p>Great Work! -Armedilla</p>
             </div>
-            </div>
+        </div>
             <div>
                 <h1 class="title">Gallery</h1>
                 <div class="gallery"> 
@@ -69,6 +77,45 @@
                     </div>
                 </div>
             </div>
+            <h2>Contact Me</h2>
+    <div class="form">
+      <form class="container">
+        <div class="upper">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" />
+          </div>
+
+          <div>
+            <label for="fullname">Fullname</label>
+            <input type="text" name="fullname" />
+          </div>
+
+          <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" />
+          </div>
+
+          <div>
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" />
+          </div>
         </div>
+
+        <div class="checkbox-container">
+          <label for="sendme">Send me a copy</label>
+          <input type="checkbox" name="sendme" />
+        </div>
+
+        <div class="message-container">
+          <label for="message">Message</label>
+          <textarea name="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="submit-container">
+          <input type="submit" />
+        </div>
+      </form>
+    </div>
     </body>
 </html>
