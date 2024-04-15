@@ -126,8 +126,7 @@
     font-weight: bold;
   }
   
-  input,
-  textarea {
+  input,textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
@@ -137,7 +136,7 @@
   
   .checkbox-container {
     display: flex;
-    align-items: center;
+    align-items: baseline;
   }
   
   .submit-container {
