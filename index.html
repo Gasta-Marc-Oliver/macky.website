@@ -1,103 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css "/>
-        <title>Gasta Marc Oliver</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Gasta Marc Oliver</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Marc Oliver L. Gasta</h1>
+    </header>
 
-    <body>
-        <div id="header">
-            <h1>Marc Oliver L. Gasta</h1>
+    <div class="container">
+      <div class="section">
+        <h2>My Interests and Hobbies</h2>
+        <ul>
+          <li>Sports</li>
+          <li>Games</li>
+          <li>Movies</li>
+          <li>Music</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>My Works</h2>
+        <ol>
+          <li><a href="#">Website 1</a></li>
+          <li><a href="#">Website 2</a></li>
+          <li><a href="#">Website 3</a></li>
+          <li><a href="#">Website 4</a></li>
+          <li><a href="#">Website 5</a></li>
+        </ol>
+      </div>
+
+      <div class="section">
+        <h2>Testimonials</h2>
+        <div class="testimonial-list">
+          <p>Your website is very unique. - Ilagan</p>
+          <p>Your website is amazing! - Escuro</p>
+          <p>I love it - Trinidad</p>
+          <p>Well done! - Rosario</p>
+          <p>Great Work! - Armedilla</p>
         </div>
+      </div>
+    </div>
 
-        <div class="container">
-            <div class="h2">
-                <h2 class="title">My Interest and Hobbies
-                    <ul>
-                        <li>Sports</li>
-                        <li>Games</li>
-                        <li>Movies</li>
-                        <li>Music</li>
-                    </ul>
-                </h2> 
+    <div class="gallery">
+      <h2>Gallery</h2>
+      <div class="image-container">
+        <img class="card" src="./image/bball.jpg" alt="Basketball" />
+        <img class="card" src="./image/arthur.jpg" alt="Arthur" />
+        <img class="card" src="./image/pulp.jpg" alt="Pulp Fiction" />
+        <img class="card" src="./image/rdr2.jpg" alt="RDR 2" />
+        <img class="card" src="./image/cat1.jpg" alt="Cat 1" />
+        <img class="card" src="./image/cat2.webp" alt="Cat 2" />
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Contact Me</h2>
+      <div class="form-container">
+        <form class="form">
+          <div class="upper">
+            <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" required />
             </div>
 
-            <div class="my-works">
-                <h2 class="title">My Works
-                    <ol>
-                        <li><a href="a.html" class="c-link">Website 1</a></li>
-                        <li><a href="a.html" class="c-link">Website 2</a></li>
-                        <li><a href="a.html" class="c-link">Website 3</a></li>
-                        <li><a href="a.html" class="c-link">Website 4</a></li>
-                        <li><a href="a.html" class="c-link">Website 5</a></li>
-                    </ol>
-                </h2>
+            <div>
+              <label for="fullname">Full Name</label>
+              <input type="text" name="fullname" required />
             </div>
 
-            <div class="testimonials">
-                <h2 class="title">Testimonials</h2>
-                <p>Your website is very unique. - Ilagan</p>
-                <p>Your website is amazing! - Escuro</p>
-                <p>I love it -Trinidad</p>
-                <p>Well done! -Rosario</p>
-                <p>Great Work! -Armedilla</p>
+            <div>
+              <label for="age">Age</label>
+              <input type="number" name="age" required />
             </div>
-        </div>
 
-        <div>
-            <h1 class="title">Gallery</h1>
-            <div class="gallery"> 
-                <img class="card" src="image/bball.jpg" alt="Basketball">  
-                <img  class="card" src="image/arthur.jpg" alt="Arthur">
-                <img class="card" src="image/pulp.jpg" alt="Pulp Fiction">
-                <img class="card" src="image/rdr2.jpg" alt="RDR 2">
-                <img class="card" src="image/cat1.jpg" alt="Cat 1">
-                <img class="card" src="image/cat2.webp" alt="Cat 2">
+            <div>
+              <label for="subject">Subject</label>
+              <input type="text" name="subject" required />
             </div>
-        </div>
+          </div>
 
-        <h2 class="title">Contact Me</h2>
+          <div class="message-container">
+            <label for="message">Message</label>
+            <textarea name="message" cols="30" rows="10" required></textarea>
+          </div>
 
-        <div class="form">
-            <form class="container">
-                <div class="upper">
-                  <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email"/>
-                  </div>
+          <div class="checkbox-container">
+            <input type="checkbox" id="sendme" name="sendme" />
+            <label for="sendme">Send me a copy</label>
+          </div>
 
-                  <div>
-                    <label for="fullname">Fullname</label>
-                    <input type="text" name="fullname"/>
-                  </div>
-
-                  <div>
-                    <label for="age">Age</label>
-                    <input type="number" name="age"/>
-                  </div>
-
-                  <div>
-                    <label for="subject">Subject</label>
-                    <input type="text" name="subject"/>
-                  </div>
-                </div>
-
-                <div class="checkbox-container">
-                    <label for="sendme">Send me a copy</label>
-                    <input type="checkbox" name="sendme"/>
-                </div>
-
-                <div class="message-container">
-                    <label for="message">Message</label>
-                    <textarea name="message" cols="30" rows="10"></textarea>
-                </div>
-
-                <div class="submit-container">
-                  <input type="submit"/>
-                </div>
-            </form>
-        </div>
-    </body>
+          <div class="submit-container">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
