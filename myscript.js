@@ -21,6 +21,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
     form.addEventListener("submit", function (e) {
         e.preventDefault();
-        alert("Comment submitted!");
     });
 });
