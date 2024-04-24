@@ -21,7 +21,7 @@ h2 {
   text-align: center;
   font-weight: bold;
   background-color: #020041;
-  color: #fff;
+  color: #f0f0f0;
   font-family: "Gill Sans", "Trebuchet MS", sans-serif;
   padding: 20px;
   border-radius: 10px;
@@ -31,9 +31,10 @@ h2 {
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 3rem auto;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .section {
@@ -129,7 +130,7 @@ input[type="text"]:focus,
 input[type="number"]:focus,
 textarea:focus {
   outline: none;
-  border-color: #ff7e5f;
+  border-color: #020041;
 }
 
 .message-container textarea {
@@ -155,7 +156,7 @@ textarea:focus {
 
 .submit-container input[type="submit"] {
   padding: 12px 24px;
-  background-color: #ff7e5f;
+  background-color: #020041;
   color: #fff;
   border: none;
   border-radius: 5px;
