@@ -46,6 +46,10 @@ h2 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.comment-container {
+  text-align: center;
+}
+
 .gallery {
   text-align: center;
   margin: 3rem auto;
@@ -171,5 +175,23 @@ textarea:focus {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .section {
+    margin: 20px 0;
+  }
+
+  .upper {
+    grid-template-columns: 1fr;
+  }
+
+  .image-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }
