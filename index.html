@@ -83,14 +83,15 @@
           </div>
           <div class="form-group">
             <label for="comment">Comment:</label>
-            <textarea
-              id="comment"
-              name="comment"
-              oninput="validateInput()"
-            ></textarea>
+            <textarea id="comment" name="comment"></textarea>
           </div>
           <div class="form-group">
-            <button type="submit" id="submit_button" disabled>
+            <button
+              type="submit"
+              oninput="validateInput()"
+              id="submit_button"
+              disabled
+            >
               Submit Comment
             </button>
           </div>
