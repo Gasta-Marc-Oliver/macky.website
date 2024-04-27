@@ -10,3 +10,8 @@ function validateInput() {
     submitBtn.style.color = "";
   }
 }
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+    });
+});
