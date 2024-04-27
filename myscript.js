@@ -1,5 +1,5 @@
 function validateInput() {
-  let inputField
+  let inputField = document.getElementById("name");
   let nameField = document.getElementById("comment");
   let submitBtn = document.getElementById("submit_button");
 
