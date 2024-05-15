@@ -1,3 +1,15 @@
+function validateInput() {
+  let inputField = document.getElementById("name");
+  let nameField = document.getElementById("comment");
+  let submitBtn = document.getElementById("submit_button");
+  if (inputField.value.trim().length > 0 && nameField.value.trim().length > 0) {
+    submitBtn.disabled = false;
+  } else {
+    submitBtn.disabled = true;
+    submitBtn.style.color = "";
+  }
+}
+
 let comments = [];
 
 // Function to render comments
@@ -56,11 +68,3 @@ document.getElementById("sort-order").addEventListener("change", () => {
 
 // Initial render of comments
 renderComments();
-
-function checkComment() {
-  const userName = document.getElementById("user_name").value;
-  const userComment = document.getElementById("user_comment").value;
-  const commentButton = document.getElementById("comment_button");
-
-  commentButton.disabled = !(userName && userComment);
-}
