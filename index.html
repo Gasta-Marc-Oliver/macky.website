@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="myscript.js" defer></script>
     <title>Gasta Marc Oliver</title>
   </head>
+
   <body>
     <header class="header">
       <h1>Marc Oliver L. Gasta</h1>
@@ -89,11 +89,8 @@
           </div>
           <div class="form-group">
             <label for="comment">Comment:</label>
-            <textarea
-              id="comment"
-              oninput="validateInput()"
-              name="comment"
-            ></textarea>
+            <textarea id="comment" oninput="validateInput()" name="comment">
+            </textarea>
           </div>
           <div class="form-group">
             <button type="submit" id="submit_button" disabled>
@@ -162,7 +159,7 @@
           </div>
 
           <div class="checkbox-container">
-            <input type="checkbox" id="sendme" name="sendme" />
+            <input type="checkbox" id="send_me" name="sendme" />
             <label for="sendme">Send me a copy</label>
           </div>
 
@@ -172,5 +169,6 @@
         </form>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
