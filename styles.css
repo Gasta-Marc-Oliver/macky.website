@@ -233,7 +233,7 @@ textarea:focus {
 }
 
 .form-group button[type="submit"]:not(.disabled) {
-  background-color: #2bdc54;
+  background-color: #020041;
   color: #fff;
   cursor: pointer;
 }
