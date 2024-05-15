@@ -56,3 +56,11 @@ document.getElementById("sort-order").addEventListener("change", () => {
 
 // Initial render of comments
 renderComments();
+
+function checkComment() {
+  const userName = document.getElementById("user_name").value;
+  const userComment = document.getElementById("user_comment").value;
+  const commentButton = document.getElementById("comment_button");
+
+  commentButton.disabled = !(userName && userComment);
+}
