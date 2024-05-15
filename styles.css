@@ -219,6 +219,7 @@ textarea:focus {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  resize: vertical;
 }
 
 .form-group button[type="submit"] {
@@ -235,37 +236,4 @@ textarea:focus {
   background-color: #2bdc54;
   color: #fff;
   cursor: pointer;
-}
-
-/* New CSS for the comments and form layout */
-.comments-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.comments-list,
-.form-container {
-  flex: 1;
-  margin: 10px;
-}
-
-.comments-list {
-  max-width: 60%;
-}
-
-.form-container {
-  max-width: 35%;
-}
-
-@media screen and (max-width: 767px) {
-  .comments-container {
-    flex-direction: column;
-  }
-
-  .comments-list,
-  .form-container {
-    max-width: 100%;
-    margin: 10px 0;
-  }
 }
